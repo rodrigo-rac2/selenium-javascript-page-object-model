@@ -2,10 +2,13 @@
   "name": "selenium-javascript-page-object-model",
   "private": true,
   "scripts": {
-    "test": "mocha 'test/use_case/*.js' --timeout 20000",
-    "test-debug": "mocha --debug 'test/use_case/*.js' --timeout 20000"
+    "test": "mocha 'test/google_search/*.js' --timeout 20000",
+    "test-debug": "mocha --debug 'test/google_search/*.js' --timeout 20000"
   },
   "dependencies": {
     "selenium-webdriver": "^3.6.0"
+  },
+  "devDependencies": {
+    "chromedriver": "^87.0.2"
   }
 }
