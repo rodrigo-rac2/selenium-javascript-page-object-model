@@ -1,5 +1,5 @@
 {
-  "name": "selenium-javascript-page-object-model",
+  "name": "selenium-js-pom",
   "private": true,
   "scripts": {
     "test": "mocha 'test/google_search/*.js' --timeout 20000",
